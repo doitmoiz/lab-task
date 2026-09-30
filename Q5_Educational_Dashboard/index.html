@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Learning Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Student Learning Dashboard</h1>
+    </header>
+
+    <main>
+        <section class="map">
+            <h2>Virtual Campus Map</h2>
+            <iframe
+                src="https://www.openstreetmap.org/export/embed.html?bbox=74.30%2C31.45%2C74.40%2C31.55&layer=mapnik"
+                width="600" height="300" align="middle" frameborder="1">
+            </iframe>
+        </section>
+
+        <section class="submission">
+            <h2>Assignment Submission</h2>
+            <form>
+                <label>Upload Assignment</label>
+                <input type="file" accept=".pdf,.doc,.docx,.zip">
+
+                <label>Instructions / Comments</label>
+                <textarea rows="7">Please upload your assignment in PDF, DOC, DOCX or ZIP format.
+Make sure your name and roll number are included.</textarea>
+
+                <button type="submit">Submit Assignment</button>
+            </form>
+        </section>
+
+        <div class="block-example">
+            <p>This is a block-level paragraph.</p>
+            <div>This is a block-level div.</div>
+            <p>Inline example: <span class="highlight">this highlighted text is inline</span> and stays in the same line.</p>
+        </div>
+    </main>
+</body>
+</html>

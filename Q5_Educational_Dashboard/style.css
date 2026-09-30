@@ -1,0 +1,10 @@
+body { font-family: Arial; margin: 0; background: #eef2ff; }
+header { background: #3730a3; color: white; padding: 25px; text-align: center; }
+main { max-width: 800px; margin: 20px auto; padding: 10px; }
+section, .block-example { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; }
+iframe { max-width: 100%; border: 2px solid #333; }
+label { display: block; margin-top: 12px; font-weight: bold; }
+input, textarea { width: 100%; padding: 9px; margin-top: 5px; box-sizing: border-box; }
+button { margin-top: 15px; padding: 10px 20px; background: #3730a3; color: white; border: 0; border-radius: 5px; }
+.block-example p, .block-example div { padding: 10px; background: #f8fafc; }
+.highlight { background: #fef08a; font-weight: bold; padding: 3px; }

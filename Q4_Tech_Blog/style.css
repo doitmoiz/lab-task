@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial; background: #f4f4f4; }
+#myHeader { background: #0f172a; color: white; text-align: center; padding: 30px; }
+nav { background: #334155; padding: 12px; text-align: center; }
+nav a { color: white; margin: 0 12px; text-decoration: none; }
+main { max-width: 1000px; margin: 20px auto; display: flex; gap: 20px; }
+section { flex: 3; }
+article, aside { background: white; padding: 20px; margin-bottom: 15px; border-radius: 8px; }
+aside { flex: 1; height: fit-content; }
+.city { background: #e0f2fe; padding: 10px; margin-top: 10px; }
+.note { background: #fde68a; font-weight: bold; padding: 3px; }
+footer { text-align: center; background: #0f172a; color: white; padding: 15px; }
+@media (max-width: 700px) { main { flex-direction: column; margin: 10px; } }

@@ -1,0 +1,5 @@
+body { font-family: Arial; margin: 0; background: #f1f5f9; color: #222; }
+header { text-align: center; background: #1e293b; color: white; padding: 30px; }
+main { max-width: 700px; margin: auto; padding: 20px; }
+section { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; overflow: auto; }
+video, iframe { max-width: 100%; }

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Festival Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 Music Festival Registration</h1>
+        <form>
+            <label>Participant Name</label>
+            <input type="text" required>
+
+            <label>Email</label>
+            <input type="email" required>
+
+            <label>Phone</label>
+            <input type="tel" required>
+
+            <label>Gender</label>
+            <div class="row">
+                <label><input type="radio" name="gender"> Male</label>
+                <label><input type="radio" name="gender"> Female</label>
+                <label><input type="radio" name="gender"> Other</label>
+            </div>
+
+            <label>Ticket Type</label>
+            <select>
+                <option>Standard</option>
+                <option>VIP</option>
+                <option>Premium</option>
+            </select>
+
+            <label>Number of Tickets</label>
+            <input type="number" min="1" max="10">
+
+            <label>Preferred Event Date</label>
+            <input type="date">
+
+            <label>Preferred Time</label>
+            <input type="time">
+
+            <label>Food Preference</label>
+            <div class="row">
+                <label><input type="radio" name="food"> Vegetarian</label>
+                <label><input type="radio" name="food"> Non-Vegetarian</label>
+                <label><input type="radio" name="food"> Vegan</label>
+            </div>
+
+            <label>Additional Facilities</label>
+            <div class="checks">
+                <label><input type="checkbox"> Parking</label>
+                <label><input type="checkbox"> Wi-Fi</label>
+                <label><input type="checkbox"> VIP Lounge</label>
+            </div>
+
+            <label>Upload Identification Document</label>
+            <input type="file" accept=".pdf,.jpg,.jpeg,.png">
+
+            <label>Comments</label>
+            <textarea rows="4" placeholder="Any special request?"></textarea>
+
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>

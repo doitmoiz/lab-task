@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Media Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Digital Media Showcase</h1>
+        <p>Latest video reel, podcast teaser and map preview</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Latest Video Reel</h2>
+            <video width="640" height="360" controls loop muted autoplay
+                   poster="poster.svg">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+                Your browser does not support video.
+            </video>
+        </section>
+
+        <section>
+            <h2>Podcast Teaser</h2>
+            <audio controls autoplay loop>
+                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+        </section>
+
+        <section>
+            <h2>External Map</h2>
+            <iframe
+                src="https://www.openstreetmap.org/export/embed.html?bbox=74.30%2C31.45%2C74.40%2C31.55&layer=mapnik"
+                width="640" height="360" style="border:2px solid #333;">
+            </iframe>
+        </section>
+    </main>
+</body>
+</html>
